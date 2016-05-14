@@ -1,0 +1,302 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: auto;
+}
+.wrapper {
+  width: 100%;
+  position: relative;
+  min-height: 100%;
+  text-align: left;
+}
+h2 {
+  font-size: 42px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+h3 {
+  font-size: 21px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  color: #727272;
+  margin-top: -5px;
+}
+
+/*HEADER BEGIN*/
+
+header {
+  height: 87px;
+  background-color: #8cc34b;
+  box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.18);
+  margin-bottom: 75px;
+  width: 1200px;
+}
+.headerLeft {
+  width: 85px;
+  height: inherit;
+  float: left;
+  padding-left: 30px;
+}
+.headerMiddle {
+  height: inherit;
+  float: left;
+}
+p.name {
+  font-size: 21px;
+  color: #ffffff;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  margin-top: 35px;
+  margin-left: -5px;
+  line-height: 0px;
+}
+p.email {
+  font-size: 14px;
+  color: rgba(241, 241, 241, 1);
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  margin-top: 16px;
+  margin-left: -5px;
+}
+.headerRight {
+  height: inherit;
+  float: right;
+  text-align: right;
+  padding-right: 28px;
+}
+.ava {
+  margin-top: 12px;
+  margin-left: -3px;
+  width: 60px;
+  border-radius: 60px;
+  border: 2px solid white;
+}
+img.icons {
+  opacity: 0.7;
+  padding: 5px;
+  margin-top: 25px;
+}
+.icons:first-child {
+  margin-left: 5px;
+}
+img.icons:hover {
+  opacity: 1.0;
+  cursor: pointer;
+}
+
+/*HEADER END*/
+
+
+/*ABOUT STUDENT BEGIN*/
+
+.aboutMe {
+  width: 932px;
+  margin: -7px 0 0 133px;
+  text-align: center;
+  overflow: hidden;
+}
+.aboutMe h3 {
+  margin: -20px 0 0 0;
+}
+.aboutMeLeft {
+  width: 50%;
+  float: left;
+margin: 20px 0 0 -10px;
+}
+
+.aboutMeLeft .aboutMePic {
+  float: left;
+  margin: 17px 0 0 5px;
+}
+.aboutMetext {
+  width: 300px;
+  float: right;
+  text-align: left;
+}
+.aboutMetext h3 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  margin-top: 12px;
+  color: black;
+}
+.aboutMetext p {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #858585;
+  margin-top: 4px;
+  line-height: 21px;
+  width: 270px;
+}
+.aboutMePic {
+  float: left;
+  margin: 17px 0 0 -9px;
+}
+.aboutMeRight {
+  width: 48%;
+  float: right;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.aboutMeRight h3 {
+  margin-left: 2px;
+}
+.aboutMeRight p {
+  margin-left: 3px;
+}
+
+/*ABOUT STUDENT END*/
+
+
+/*COURSES ON LOFTBLOG BEGIN*/
+
+.coursesMainContainer {
+  width: 1200px;
+  min-height: 1250px;
+  background: url(gplaypattern2.png);
+  margin-top: 80px;
+  overflow: auto;
+  border: 1px solid red;
+}
+.coursesInsideContainer {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 60px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+#coursesH3 {
+  margin: -17px 0 43px 0;
+}
+
+.element {
+  width: 300px;
+  background-color: white;
+  margin: -5px -8px 25px 29px;
+  box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  float: left;
+}
+.clearer {
+  clear: both;
+}
+.element:hover {
+  cursor: pointer;
+}
+.element:hover h3 {
+  color: #129d28;
+  text-decoration: none;
+}
+.element:hover .greenLine {
+  position: absolute;
+  width: 300px;
+  height: 4px;
+  background-color: #129d28;
+  overflow: hidden;
+  margin-top: -8px;
+  display: block;
+}
+
+.element h3 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 21px;
+  color: black;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 12px;
+  margin-left: 20px;
+  line-height: 26px;
+}
+.element p {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  width: 270px;
+  font-size: 14px;
+  text-align: left;
+  color: #858585;
+  line-height: 21px;
+  margin-left: 20px;
+  margin-right: 24px;
+  margin-top: 9px;
+}
+p.time {
+  color: #b4b4b4;
+  margin-bottom: 19px;
+}
+.elementBottom {
+  width: 280px;
+  height: 60px;
+  text-align: left;
+  background-color: #f6f7f2;
+  padding-left: 20px;
+  margin-top: -6px;
+}
+.fakeCheckbox input[type="checkbox"] {
+  display: none;
+}
+.fakeCheckbox span.squareCheckbox:before {
+  font-family: "FontAwesome";
+  font-style: normal;
+  content: '\f096';
+  font-size: 24px;
+  color: #858585;
+  cursor: pointer;
+  line-height: 65px;
+  vertical-align: middle;
+}
+.fakeCheckbox input[type="checkbox"]:checked ~ span.squareCheckbox:before {
+  content: '\f14a';
+  color: green;
+}
+.seen {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 18px;
+  color: #727272;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  line-height: 50px;
+  margin: 0px 0 0px 15px;
+}
+.appearsAfterempty {
+  margin: 0 auto;
+  vertical-align: middle;
+  font-size: 50px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  color: #8cc34b;
+  background-color: transparent;
+  display: none;
+  width: 550px;
+  height: 300px;
+  margin-top: 600px;
+}
+#done {
+  text-align: center;
+  display: inline;
+}
+
+/*COURSES ON LOFTBLOG END*/
+
+
+footer {
+  text-align: center;
+  color: #bbbbbb;
+  height: 60px;
+  background-color: black;
+  width: 100%;
+  padding-top: 20px;
+  bottom: -50px;
+}
+footer p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
